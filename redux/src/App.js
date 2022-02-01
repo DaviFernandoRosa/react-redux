@@ -8,14 +8,13 @@ import Usuarios from './components/Usuarios';
 
 function App() {
   return (
-    <Provider store={store}>
-         <div className="App">
+         <Provider store={store}>
+            <div className="App">
              <SideBar/>
              <Usuarios/>
-        </div>
-    </Provider>
-    
-  );
+           </div>
+        </Provider>
+     );
 }
 
 export default App;
